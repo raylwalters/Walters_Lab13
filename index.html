@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script type="text/javascript" src="ng.js"></script>
+  </head>
+​
+​
+  <body ng-app="words">
+​
+    <div ng-controller="wordsList">
+​
+      <h1>Words That Ain't Fun! STOP PRESSING BUTTONS!!!!!</h1>
+​
+      <button type="button" ng-click="randomWord()" name="button">Words</button>
+      <button type="button" ng-click="randomPhrase()" name="button">More Words</button>
+      <button type="button" ng-click="decoration()" name="button">Words with Decorations</button>
+      <button type="button" ng-click="phraseDecoration()" name="button">More Words with Decorations</button>
+
+      <div class="main">
+​
+        <ul>
+          <li ng-repeat="output in newWord track by $index" class="ng-class : {{output.decor}}">{{output.word}}</li>
+        </ul>
+    ​   </div>
+    </div>
+  </body>
+​
+​
+</html>

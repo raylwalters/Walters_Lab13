@@ -1,0 +1,48 @@
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 3%; }
+
+h1 {
+  text-align: center;
+  background-color: silver; }
+
+button {
+  text-align: center;
+  margin-right: 3%;
+  margin-left: 3%;
+  background-color: grey;
+  color: red;
+  font-size: 1.5em;
+  margin-bottom: 3%; }
+
+.main {
+  border: 5px solid darkblue;
+  background-color: silver;
+  overflow-wrap: break-word; }
+
+.underline {
+  text-decoration: underline; }
+
+.lineThrough {
+  text-decoration: line-through; }
+
+.fontSize {
+  font-size: 20px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.fontStyle {
+  font-style: italic; }
+
+.blue {
+  color: blue;
+  font-weight: bold; }
+
+.yellow {
+  background-color: yellow;
+  border: 2px; }
+
+.orange {
+  color: orange; }
